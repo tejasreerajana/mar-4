@@ -1,0 +1,9 @@
+l=[]
+m=int(input())
+for i in range(m):
+    b=int(input())
+    l.append(b)
+a={}
+for i in l:
+     a[i]=l.count(i)
+print(a)
